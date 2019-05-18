@@ -3454,20 +3454,9 @@ F 3 "" H 1850 1100 50  0001 C CNN
 	1    1850 1100
 	0    1    1    0   
 $EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP5
-U 1 1 5CE929CB
-P 1100 4100
-F 0 "JP5" V 1050 4050 50  0000 R CNN
-F 1 "Jumper_2_Bridged" H 1450 4200 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1100 4100 50  0001 C CNN
-F 3 "~" H 1100 4100 50  0001 C CNN
-	1    1100 4100
-	0    -1   -1   0   
-$EndComp
+Connection ~ 1100 4500
 Wire Wire Line
 	1100 4300 1100 4500
-Connection ~ 1100 4500
 $Comp
 L power:+3.3V #PWR0184
 U 1 1 5CEBF9AC
@@ -3477,6 +3466,28 @@ F 1 "+3.3V" V 1115 4028 50  0000 L CNN
 F 2 "" H 1100 3900 50  0001 C CNN
 F 3 "" H 1100 3900 50  0001 C CNN
 	1    1100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP5
+U 1 1 5CE929CB
+P 1100 4100
+F 0 "JP5" V 1050 4050 50  0000 R CNN
+F 1 "Jumper_2_Bridged" H 1450 4200 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 1100 4100 50  0001 C CNN
+F 3 "~" H 1100 4100 50  0001 C CNN
+	1    1100 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J12
+U 1 1 5CE79753
+P 1300 4500
+F 0 "J12" H 1328 4526 50  0000 L CNN
+F 1 "VBATJ" H 1328 4435 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1300 4500 50  0001 C CNN
+F 3 "~" H 1300 4500 50  0001 C CNN
+	1    1300 4500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
