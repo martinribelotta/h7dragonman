@@ -5,9 +5,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "DragonMAN"
 Date ""
-Rev ""
+Rev "0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -3484,10 +3484,32 @@ L Connector:Conn_01x01_Female J12
 U 1 1 5CE79753
 P 1300 4500
 F 0 "J12" H 1328 4526 50  0000 L CNN
-F 1 "VBATJ" H 1328 4435 50  0000 L CNN
+F 1 "VBAT+" H 1328 4435 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1300 4500 50  0001 C CNN
 F 3 "~" H 1300 4500 50  0001 C CNN
 	1    1300 4500
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J14
+U 1 1 5CEBA95D
+P 1150 4900
+F 0 "J14" H 1178 4926 50  0000 L CNN
+F 1 "VBATG" H 1178 4835 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1150 4900 50  0001 C CNN
+F 3 "~" H 1150 4900 50  0001 C CNN
+	1    1150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CEBBA60
+P 950 4900
+F 0 "#PWR04" H 950 4650 50  0001 C CNN
+F 1 "GND" V 955 4772 50  0000 R CNN
+F 2 "" H 950 4900 50  0001 C CNN
+F 3 "" H 950 4900 50  0001 C CNN
+	1    950  4900
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
