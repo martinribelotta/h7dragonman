@@ -947,24 +947,6 @@ X IO1 6 -500 100 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SN6505_SN6505
-#
-DEF SN6505_SN6505 U 0 40 Y Y 1 F N
-F0 "U" 0 50 50 H V C CNN
-F1 "SN6505_SN6505" 0 -50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -350 200 350 -200 0 1 0 f
-X D1 1 -450 100 100 R 50 50 1 1 w
-X Vcc 2 -450 0 100 R 50 50 1 1 W
-X D2 3 -450 -100 100 R 50 50 1 1 w
-X GND 4 450 -100 100 L 50 50 1 1 W
-X EN 5 450 0 100 L 50 50 1 1 I
-X CLK 6 450 100 100 L 50 50 1 1 I C
-ENDDRAW
-ENDDEF
-#
 # Switch_SW_Push
 #
 DEF Switch_SW_Push SW 0 40 N N 1 F N
@@ -1169,11 +1151,11 @@ X BST 6 350 100 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# trololo-rescue_ISO1050DUB-Interface_CAN_LIN
+# trololo-rescue_ISO1050DUB-Interface_CAN_LIN-trololo-rescue
 #
-DEF trololo-rescue_ISO1050DUB-Interface_CAN_LIN U 0 20 Y Y 1 F N
+DEF trololo-rescue_ISO1050DUB-Interface_CAN_LIN-trololo-rescue U 0 20 Y Y 1 F N
 F0 "U" -250 250 50 H V C CNN
-F1 "trololo-rescue_ISO1050DUB-Interface_CAN_LIN" 100 250 50 H V C CNN
+F1 "trololo-rescue_ISO1050DUB-Interface_CAN_LIN-trololo-rescue" 100 250 50 H V C CNN
 F2 "Package_SO:SOP-8_6.62x9.15mm_P2.54mm" 0 -350 50 H I C CIN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -1197,11 +1179,11 @@ X VCC2 8 400 100 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# trololo-rescue_Micro_SD_Card-Connector
+# trololo-rescue_Micro_SD_Card-Connector-trololo-rescue
 #
-DEF trololo-rescue_Micro_SD_Card-Connector J 0 40 Y Y 1 F N
+DEF trololo-rescue_Micro_SD_Card-Connector-trololo-rescue J 0 40 Y Y 1 F N
 F0 "J" -650 600 50 H V C CNN
-F1 "trololo-rescue_Micro_SD_Card-Connector" 650 600 50 H V R CNN
+F1 "trololo-rescue_Micro_SD_Card-Connector-trololo-rescue" 650 600 50 H V R CNN
 F2 "" 1150 300 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1227,6 +1209,24 @@ X VSS 6 -900 -200 150 R 50 50 1 1 W
 X DAT0 7 -900 -300 150 R 50 50 1 1 I
 X DAT1 8 -900 -400 150 R 50 50 1 1 I
 X SHIELD 9 800 -600 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trololo-rescue_SN6505-SN6505
+#
+DEF trololo-rescue_SN6505-SN6505 U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "trololo-rescue_SN6505-SN6505" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 200 350 -200 0 1 0 f
+X D1 1 -450 100 100 R 50 50 1 1 w
+X Vcc 2 -450 0 100 R 50 50 1 1 W
+X D2 3 -450 -100 100 R 50 50 1 1 w
+X GND 4 450 -100 100 L 50 50 1 1 W
+X EN 5 450 0 100 L 50 50 1 1 I
+X CLK 6 450 100 100 L 50 50 1 1 I C
 ENDDRAW
 ENDDEF
 #

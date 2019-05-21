@@ -789,7 +789,7 @@ Wire Wire Line
 Connection ~ 5400 9500
 NoConn ~ 5550 9700
 $Comp
-L trololo-rescue:Micro_SD_Card-Connector J4
+L trololo-rescue:Micro_SD_Card-Connector-trololo-rescue J4
 U 1 1 5C625641
 P 7050 1250
 F 0 "J4" H 6350 1850 50  0000 C CNN
@@ -2023,11 +2023,11 @@ U 1 1 5C8346D9
 P 8800 1300
 F 0 "SW1" V 8846 1252 50  0000 R CNN
 F 1 "RESET" V 8755 1252 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 8800 1500 50  0001 C CNN
+F 2 "Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 8800 1500 50  0001 C CNN
 F 3 "~" H 8800 1500 50  0001 C CNN
 F 4 "TL3342" H 0   0   50  0001 C CNN "manf#"
 	1    8800 1300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0120
@@ -2161,7 +2161,7 @@ U 1 1 5C9B6997
 P 9250 1300
 F 0 "SW2" V 9296 1252 50  0000 R CNN
 F 1 "PC13" V 9205 1252 50  0000 R CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 9250 1500 50  0001 C CNN
+F 2 "Buttons_Switches_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 9250 1500 50  0001 C CNN
 F 3 "~" H 9250 1500 50  0001 C CNN
 F 4 "PTS645VM31-2 LFS" H 0   0   50  0001 C CNN "manf#"
 	1    9250 1300
@@ -2393,7 +2393,7 @@ Wire Wire Line
 Wire Wire Line
 	14950 5400 14950 5350
 $Comp
-L trololo-rescue:ISO1050DUB-Interface_CAN_LIN U3
+L trololo-rescue:ISO1050DUB-Interface_CAN_LIN-trololo-rescue U3
 U 1 1 5C76F366
 P 13550 3900
 F 0 "U3" H 13550 4267 50  0000 C CNN
@@ -2665,7 +2665,7 @@ Connection ~ 12350 8350
 Wire Wire Line
 	12350 8350 12450 8350
 $Comp
-L SN6505:SN6505 U11
+L trololo-rescue:SN6505-SN6505 U11
 U 1 1 5CA512D2
 P 13400 6750
 F 0 "U11" H 13400 6385 50  0000 C CNN
