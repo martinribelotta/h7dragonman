@@ -5,4 +5,5 @@
   (lib (name 2019-03-05_16-17-32)(type Legacy)(uri ${KIPRJMOD}/2019-03-05_16-17-32.lib)(options "")(descr ""))
   (lib (name reg_ap6320x)(type Legacy)(uri ${KIPRJMOD}/reg_ap6320x.lib)(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+  (lib (name dragonmanh7-rescue)(type Legacy)(uri ${KIPRJMOD}/dragonmanh7-rescue.lib)(options "")(descr ""))
 )

@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:trololo-cache
+LIBS:dragonmanh7-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -789,7 +789,7 @@ Wire Wire Line
 Connection ~ 5400 9500
 NoConn ~ 5550 9700
 $Comp
-L trololo-rescue:Micro_SD_Card-Connector-trololo-rescue J4
+L dragonmanh7-rescue:Micro_SD_Card-Connector-dragonmanh7-rescue-dragonmanh7-rescue J4
 U 1 1 5C625641
 P 7050 1250
 F 0 "J4" H 6350 1850 50  0000 C CNN
@@ -2363,7 +2363,7 @@ Wire Wire Line
 Wire Wire Line
 	14950 5400 14950 5350
 $Comp
-L trololo-rescue:ISO1050DUB-Interface_CAN_LIN-trololo-rescue U3
+L dragonmanh7-rescue:ISO1050DUB-Interface_CAN_LIN-dragonmanh7-rescue-dragonmanh7-rescue U3
 U 1 1 5C76F366
 P 13550 3900
 F 0 "U3" H 13550 4267 50  0000 C CNN
@@ -2635,7 +2635,7 @@ Connection ~ 12350 8350
 Wire Wire Line
 	12350 8350 12450 8350
 $Comp
-L trololo-rescue:SN6505-SN6505 U11
+L dragonmanh7-rescue:SN6505-SN6505-dragonmanh7-rescue U11
 U 1 1 5CA512D2
 P 13400 6750
 F 0 "U11" H 13400 6385 50  0000 C CNN
