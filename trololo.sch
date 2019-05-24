@@ -1157,36 +1157,6 @@ $EndComp
 Wire Wire Line
 	13850 1100 14100 1100
 Connection ~ 13850 1300
-$Comp
-L Jumper:Jumper_2_Bridged JP2
-U 1 1 5C769611
-P 13300 2100
-F 0 "JP2" H 13300 2295 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 13300 2204 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 13300 2100 50  0001 C CNN
-F 3 "~" H 13300 2100 50  0001 C CNN
-	1    13300 2100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13300 1700 13300 1900
-$Comp
-L Jumper:Jumper_2_Bridged JP3
-U 1 1 5C77BEDA
-P 13550 2100
-F 0 "JP3" V 13500 2050 50  0000 R CNN
-F 1 "Jumper_2_Bridged" H 13900 2200 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 13550 2100 50  0001 C CNN
-F 3 "~" H 13550 2100 50  0001 C CNN
-	1    13550 2100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13550 1700 13550 1900
-Wire Wire Line
-	13550 2300 13550 2450
-Wire Wire Line
-	13300 2450 13300 2300
 Text Label 13550 2450 3    50   ~ 0
 U2_RX
 Text Label 13300 2450 3    50   ~ 0
@@ -3512,4 +3482,8 @@ F 3 "" H 950 4900 50  0001 C CNN
 	1    950  4900
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	13300 1700 13300 2450
+Wire Wire Line
+	13550 1700 13550 2450
 $EndSCHEMATC

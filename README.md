@@ -27,8 +27,19 @@ STM32H7 LQFP100 board for protocol bridge and industrial control.
 
 ## 3D preview
 
-![noniso-top](docs/non-isolated-top.png)
+# Non isolated
 
-![noniso-bottom](docs/non-isolated-bottom.png)
+![top](docs/non-isolated-top.png)
 
-![noniso-top](docs/potrail.png)
+![bottom](docs/non-isolated-bottom.png)
+
+![potrail](docs/non-isolated-potrail.png)
+
+# Isolated isolated
+
+![top](docs/isolated-top.png)
+
+![bottom](docs/isolated-bottom.png)
+
+![potrail](docs/isolated-potrail.png)
+
