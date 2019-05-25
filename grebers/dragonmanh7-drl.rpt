@@ -1,5 +1,5 @@
-Drill report for C:/local/kicad/h7dragonman/dragonmanh7.kicad_pcb
-Created on 24/05/2019 16:08:05
+Drill report for C:\local\kicad\h7dragonman\dragonmanh7.kicad_pcb
+Created on 25/05/2019 17:58:20
 
 Copper Layer Stackup:
     =============================================================
@@ -12,7 +12,7 @@ Copper Layer Stackup:
 Drill file 'dragonmanh7-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,40mm  0,016"  (213 holes)
+    T1  0,40mm  0,016"  (212 holes)
     T2  0,50mm  0,020"  (38 holes)  (with 6 slots)
     T3  0,55mm  0,022"  (6 holes)  (with 6 slots)
     T4  0,89mm  0,035"  (4 holes)
@@ -24,13 +24,12 @@ Drill file 'dragonmanh7-PTH.drl' contains
     T10  1,60mm  0,063"  (2 holes)
     T11  3,20mm  0,126"  (4 holes)
 
-    Total plated holes count 411
+    Total plated holes count 410
 
 
 Drill file 'dragonmanh7-NPTH.drl' contains
     unplated through holes:
     =============================================================
-    T1  2,40mm  0,094"  (4 holes)
-    T2  3,25mm  0,128"  (2 holes)
+    T1  3,25mm  0,128"  (2 holes)
 
-    Total unplated holes count 6
+    Total unplated holes count 2

@@ -1236,7 +1236,7 @@ U 1 1 5C8A26CE
 P 12200 9550
 F 0 "J8" H 12150 9650 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 11400 9350 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-GF-3.5_1x02_P3.50mm_Horizontal_ThreadedFlange_MountHole" H 12200 9550 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x5.08mm_Angled" H 12200 9550 50  0001 C CNN
 F 3 "~" H 12200 9550 50  0001 C CNN
 F 4 "1985195" H 400 100 50  0001 C CNN "manf#"
 	1    12200 9550
@@ -1419,18 +1419,6 @@ F 2 "" H 8850 10200 50  0001 C CNN
 F 3 "" H 8850 10200 50  0001 C CNN
 	1    8850 10200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x06 J5
-U 1 1 5C7DFF3A
-P 15450 4450
-F 0 "J5" H 15450 4750 50  0000 C CNN
-F 1 "Screw_Terminal_01x06" V 15550 4450 50  0000 C CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_6-GF-3.5_1x06_P3.50mm_Horizontal_ThreadedFlange_MountHole" H 15450 4450 50  0001 C CNN
-F 3 "~" H 15450 4450 50  0001 C CNN
-F 4 "1985234" H 0   0   50  0001 C CNN "manf#"
-	1    15450 4450
-	1    0    0    -1  
 $EndComp
 Text Label 15250 4750 2    50   ~ 0
 CAN_H
@@ -3486,4 +3474,16 @@ Wire Wire Line
 	13300 1700 13300 2450
 Wire Wire Line
 	13550 1700 13550 2450
+$Comp
+L Connector:Screw_Terminal_01x06 J5
+U 1 1 5C7DFF3A
+P 15450 4450
+F 0 "J5" H 15450 4750 50  0000 C CNN
+F 1 "Screw_Terminal_01x06" V 15550 4450 50  0000 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_06x5.08mm_Angled" H 15450 4450 50  0001 C CNN
+F 3 "~" H 15450 4450 50  0001 C CNN
+F 4 "1985234" H 0   0   50  0001 C CNN "manf#"
+	1    15450 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
