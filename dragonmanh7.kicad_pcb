@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.2)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
@@ -41,8 +41,6 @@
     (zone_clearance 0.254)
     (zone_45_only yes)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.15)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -52,6 +50,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -362,10 +362,30 @@
     (add_net "Net-(D4-Pad2)")
     (add_net "Net-(D7-Pad1)")
     (add_net "Net-(D8-Pad1)")
+    (add_net "Net-(J1-Pad4)")
+    (add_net "Net-(J2-Pad4)")
     (add_net "Net-(J3-PadL1)")
+    (add_net "Net-(J3-PadR7)")
+    (add_net "Net-(J4-Pad1)")
+    (add_net "Net-(J4-Pad2)")
+    (add_net "Net-(J4-Pad8)")
+    (add_net "Net-(J7-Pad4)")
     (add_net "Net-(R6-Pad1)")
     (add_net "Net-(TR1-Pad1)")
     (add_net "Net-(TR1-Pad3)")
+    (add_net "Net-(U11-Pad6)")
+    (add_net "Net-(U12-Pad5)")
+    (add_net "Net-(U12-Pad8)")
+    (add_net "Net-(U2-Pad17)")
+    (add_net "Net-(U2-Pad18)")
+    (add_net "Net-(U4-Pad11)")
+    (add_net "Net-(U4-Pad14)")
+    (add_net "Net-(U8-Pad11)")
+    (add_net "Net-(U8-Pad12)")
+    (add_net "Net-(U8-Pad13)")
+    (add_net "Net-(U8-Pad14)")
+    (add_net "Net-(U8-Pad2)")
+    (add_net "Net-(U8-Pad3)")
     (add_net VDC)
   )
 
@@ -398,7 +418,7 @@
       (net 2 GND))
     (pad 1 smd roundrect (at -0.9375 0 180) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 +3V3))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl0
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2007,7 +2027,7 @@
       (net 125 +5P))
     (pad 2 smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 124 GNDPWR))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl0
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2043,7 +2063,7 @@
       (net 125 +5P))
     (pad 2 smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 124 GNDPWR))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl0
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2086,7 +2106,7 @@
       (net 128 "Net-(D11-Pad2)"))
     (pad 1 smd rect (at -2 0 180) (size 2.5 1.8) (layers F.Cu F.Paste F.Mask)
       (net 125 +5P))
-    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.wrl0
+    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2129,7 +2149,7 @@
       (net 125 +5P))
     (pad 2 smd rect (at 2 0 180) (size 2.5 1.8) (layers F.Cu F.Paste F.Mask)
       (net 129 "Net-(D12-Pad2)"))
-    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.wrl0
+    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2173,7 +2193,7 @@
     (pad 6 smd rect (at 1.1 -0.95 180) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask))
     (pad 5 smd rect (at 1.1 0 180) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 1 +3V3))
-    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl0
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2228,7 +2248,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-3010.wrl0
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-3010.wrl
       (at (xyz 0 0 0))
       (scale (xyz 2.3 2.3 3.3))
       (rotate (xyz 0 0 0))
@@ -2296,7 +2316,7 @@
       (net 124 GNDPWR))
     (pad 16 smd rect (at 4.65 -4.445 180) (size 1.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 125 +5P))
-    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.wrl0
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2332,7 +2352,7 @@
       (net 125 +5P))
     (pad 1 smd roundrect (at -0.9375 0 270) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 124 GNDPWR))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl0
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2368,7 +2388,7 @@
       (net 125 +5P))
     (pad 2 smd roundrect (at 0.9375 0 180) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 124 GNDPWR))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl0
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2429,7 +2449,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.wrl0
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 2 2 2.2))
       (rotate (xyz 0 0 0))
@@ -5466,7 +5486,7 @@
   (gr_text Debug-M0 (at 174.29734 49.91862) (layer F.SilkS) (tstamp 5CE3909F)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "DragonmanH7\nCopytigth © 2019\nby Martin Ribelotta\nand Eric Pernia" (at 147.58924 56.2483) (layer F.SilkS)
+  (gr_text "DragonmanH7\ncopyright © 2019\nby Martin Ribelotta\nand Eric Pernia" (at 147.58924 56.2483) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_circle (center 178.2572 66.3956) (end 178.491376 66.3956) (layer F.SilkS) (width 0.5) (tstamp 5CDFAAC5))
