@@ -307,22 +307,17 @@ F 3 "~" H 1200 1750 50  0001 C CNN
 	1    1200 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 1750 1500 1750
-Connection ~ 1500 1750
 $Comp
 L power:GND #PWR0110
 U 1 1 5C59C578
-P 900 1750
-F 0 "#PWR0110" H 900 1500 50  0001 C CNN
-F 1 "GND" H 950 1600 50  0000 R CNN
-F 2 "" H 900 1750 50  0001 C CNN
-F 3 "" H 900 1750 50  0001 C CNN
-	1    900  1750
-	1    0    0    -1  
+P 900 1550
+F 0 "#PWR0110" H 900 1300 50  0001 C CNN
+F 1 "GND" V 905 1422 50  0000 R CNN
+F 2 "" H 900 1550 50  0001 C CNN
+F 3 "" H 900 1550 50  0001 C CNN
+	1    900  1550
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	900  1750 1100 1750
 $Comp
 L Device:Crystal_Small Y1
 U 1 1 5C59DBD6
@@ -752,9 +747,6 @@ Text Label 5400 9300 2    50   ~ 0
 ENET_MDC
 Text Label 5550 9100 2    50   ~ 0
 ENET_REF_CLK
-Wire Wire Line
-	900  1550 900  1750
-Connection ~ 900  1750
 Wire Wire Line
 	1100 2900 1100 3000
 Connection ~ 1100 3000
@@ -2112,12 +2104,6 @@ F 3 "" H 9250 1500 50  0001 C CNN
 	1    9250 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 1300 1200 1250
-Wire Wire Line
-	1200 1250 1500 1250
-Wire Wire Line
-	1500 1250 1500 1300
 Text Label 9250 1900 0    50   ~ 0
 PA8
 $Comp
@@ -3229,12 +3215,7 @@ F 4 "STM32H743VIT6" H 0   0   50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 1250 1500 1200
-Wire Wire Line
-	1500 1200 2600 1200
-Wire Wire Line
 	2600 1200 2600 1250
-Connection ~ 1500 1250
 Connection ~ 2600 1250
 Wire Wire Line
 	2500 1250 2350 1250
@@ -3307,17 +3288,6 @@ $EndComp
 Connection ~ 1100 4500
 Wire Wire Line
 	1100 4300 1100 4500
-$Comp
-L power:+3.3V #PWR0184
-U 1 1 5CEBF9AC
-P 1100 3900
-F 0 "#PWR0184" H 1100 3750 50  0001 C CNN
-F 1 "+3.3V" V 1115 4028 50  0000 L CNN
-F 2 "" H 1100 3900 50  0001 C CNN
-F 3 "" H 1100 3900 50  0001 C CNN
-	1    1100 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Jumper:Jumper_2_Bridged JP5
 U 1 1 5CE929CB
@@ -3476,4 +3446,96 @@ Wire Notes Line
 	14200 3900 15750 3900
 Wire Notes Line
 	14200 5500 15750 5500
+$Comp
+L power:+3.3V #PWR0184
+U 1 1 5CEBF9AC
+P 1100 3900
+F 0 "#PWR0184" H 1100 3750 50  0001 C CNN
+F 1 "+3.3V" V 1115 4028 50  0000 L CNN
+F 2 "" H 1100 3900 50  0001 C CNN
+F 3 "" H 1100 3900 50  0001 C CNN
+	1    1100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5CF89581
+P 1100 1750
+F 0 "#PWR05" H 1100 1600 50  0001 C CNN
+F 1 "+3.3V" V 1115 1878 50  0000 L CNN
+F 2 "" H 1100 1750 50  0001 C CNN
+F 3 "" H 1100 1750 50  0001 C CNN
+	1    1100 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 1200 1200 1300
+Wire Wire Line
+	1200 1200 2600 1200
+Wire Wire Line
+	1300 1750 1500 1750
+Connection ~ 1500 1750
+$Comp
+L power:GND #PWR06
+U 1 1 5CFB2E42
+P 1500 1100
+F 0 "#PWR06" H 1500 850 50  0001 C CNN
+F 1 "GND" V 1505 972 50  0000 R CNN
+F 2 "" H 1500 1100 50  0001 C CNN
+F 3 "" H 1500 1100 50  0001 C CNN
+	1    1500 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 1100 1500 1300
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J15
+U 1 1 5CF91B73
+P 15200 950
+F 0 "J15" H 15250 1050 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 15150 750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 15200 950 50  0001 C CNN
+F 3 "~" H 15200 950 50  0001 C CNN
+	1    15200 950 
+	-1   0    0    1   
+$EndComp
+Text Label 15400 850  0    50   ~ 0
+SWCLK
+Text Label 15400 950  0    50   ~ 0
+SWDIO
+Text Label 14900 850  2    50   ~ 0
+~RESET
+$Comp
+L power:GND #PWR07
+U 1 1 5CF92AFB
+P 14900 950
+F 0 "#PWR07" H 14900 700 50  0001 C CNN
+F 1 "GND" V 14905 822 50  0000 R CNN
+F 2 "" H 14900 950 50  0001 C CNN
+F 3 "" H 14900 950 50  0001 C CNN
+	1    14900 950 
+	0    1    -1   0   
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 5CFBA196
+P 10600 850
+F 0 "#LOGO1" H 10600 1125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10600 625 50  0001 C CNN
+F 2 "footprints:ciaa_7-logo" H 10600 850 50  0001 C CNN
+F 3 "~" H 10600 850 50  0001 C CNN
+	1    10600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO2
+U 1 1 5CFBA47B
+P 11300 850
+F 0 "#LOGO2" H 11300 1125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 11300 625 50  0001 C CNN
+F 2 "footprints:unqui-logo" H 11300 850 50  0001 C CNN
+F 3 "~" H 11300 850 50  0001 C CNN
+	1    11300 850 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
