@@ -5,7 +5,7 @@ STM32H7 LQFP100 board for protocol bridge and industrial control.
 ## Characterstics:
 
  - Isolated and non isolated version
- - STM32H750/743VxTx in 144LQFP with 8MHz/32.768Khz crystals and ROM Bootloader via USB
+ - STM32H750/743VxTx400MHz in 100LQFP with 8MHz/32.768Khz crystals and ROM Bootloader via USB
  - STM32-based DAP programmer and virtual usb with ROM bootloader via USB
  - External 2/4/8/16MB QSPI flash
  - MicroSD card 1bit slot
