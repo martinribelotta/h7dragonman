@@ -302,7 +302,7 @@ U 1 1 5C59B662
 P 1250 1750
 F 0 "JP1" H 1400 1800 50  0000 C CNN
 F 1 "BOOT" H 1450 1700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 1750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 1250 1750 50  0001 C CNN
 F 3 "~" H 1250 1750 50  0001 C CNN
 	1    1250 1750
 	1    0    0    -1  
@@ -434,30 +434,30 @@ Text Label 3750 2650 0    50   ~ 0
 USBD_D-
 Text Label 3750 2750 0    50   ~ 0
 USBD_D+
-Text Label 8050 3900 2    50   ~ 0
+Text Label 8400 3900 2    50   ~ 0
 C_USBD_D-
-Text Label 8050 4000 2    50   ~ 0
+Text Label 8400 3800 2    50   ~ 0
 C_USBD_D+
 $Comp
 L power:GND #PWR0113
 U 1 1 5C5D013E
-P 8050 6800
-F 0 "#PWR0113" H 8050 6550 50  0001 C CNN
-F 1 "GND" V 8055 6672 50  0000 R CNN
-F 2 "" H 8050 6800 50  0001 C CNN
-F 3 "" H 8050 6800 50  0001 C CNN
-	1    8050 6800
+P 8700 7250
+F 0 "#PWR0113" H 8700 7000 50  0001 C CNN
+F 1 "GND" V 8705 7122 50  0000 R CNN
+F 2 "" H 8700 7250 50  0001 C CNN
+F 3 "" H 8700 7250 50  0001 C CNN
+	1    8700 7250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0114
 U 1 1 5C5D01D3
-P 8050 4200
-F 0 "#PWR0114" H 8050 3950 50  0001 C CNN
-F 1 "GND" V 8055 4072 50  0000 R CNN
-F 2 "" H 8050 4200 50  0001 C CNN
-F 3 "" H 8050 4200 50  0001 C CNN
-	1    8050 4200
+P 8700 4200
+F 0 "#PWR0114" H 8700 3950 50  0001 C CNN
+F 1 "GND" V 8705 4072 50  0000 R CNN
+F 2 "" H 8700 4200 50  0001 C CNN
+F 3 "" H 8700 4200 50  0001 C CNN
+	1    8700 4200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1093,17 +1093,17 @@ U1_RX
 $Comp
 L power:GND #PWR0137
 U 1 1 5C702869
-P 8050 5500
-F 0 "#PWR0137" H 8050 5250 50  0001 C CNN
-F 1 "GND" V 8055 5372 50  0000 R CNN
-F 2 "" H 8050 5500 50  0001 C CNN
-F 3 "" H 8050 5500 50  0001 C CNN
-	1    8050 5500
+P 8700 5100
+F 0 "#PWR0137" H 8700 4850 50  0001 C CNN
+F 1 "GND" V 8705 4972 50  0000 R CNN
+F 2 "" H 8700 5100 50  0001 C CNN
+F 3 "" H 8700 5100 50  0001 C CNN
+	1    8700 5100
 	0    1    1    0   
 $EndComp
-Text Label 8050 5300 2    50   ~ 0
+Text Label 8400 4700 2    50   ~ 0
 C_USB_SER_D+
-Text Label 8050 5200 2    50   ~ 0
+Text Label 8400 4800 2    50   ~ 0
 C_USB_SER_D-
 $Comp
 L power:+3.3V #PWR0138
@@ -1378,7 +1378,7 @@ U 1 1 5C888A4F
 P 11700 8600
 F 0 "D4" H 11500 8500 50  0000 C CNN
 F 1 "B120-E3" H 11750 8500 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 11700 8425 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11700 8425 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 11700 8600 50  0001 C CNN
 F 4 "B120-E3" H -450 -550 50  0001 C CNN "manf#"
 	1    11700 8600
@@ -1389,106 +1389,102 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0147
 U 1 1 5C910463
-P 6250 4650
-F 0 "#PWR0147" H 6250 4400 50  0001 C CNN
-F 1 "GND" V 6255 4522 50  0000 R CNN
-F 2 "" H 6250 4650 50  0001 C CNN
-F 3 "" H 6250 4650 50  0001 C CNN
-	1    6250 4650
+P 6200 4750
+F 0 "#PWR0147" H 6200 4500 50  0001 C CNN
+F 1 "GND" V 6205 4622 50  0000 R CNN
+F 2 "" H 6200 4750 50  0001 C CNN
+F 3 "" H 6200 4750 50  0001 C CNN
+	1    6200 4750
 	0    -1   1    0   
 $EndComp
-Text Label 8050 3800 2    50   ~ 0
+Text Label 8400 3600 2    50   ~ 0
 VBUS1
-Text Label 8050 5100 2    50   ~ 0
+Text Label 8400 4500 2    50   ~ 0
 VBUS2
-Text Label 8050 6400 2    50   ~ 0
-VBUS3
-Text Label 6250 3650 0    50   ~ 0
+Text Label 6200 3750 0    50   ~ 0
 VBUS1
-Text Label 6750 4250 0    50   ~ 0
+Text Label 6700 4350 0    50   ~ 0
 C_USBD_D+
-Text Label 5750 4250 2    50   ~ 0
+Text Label 5700 4350 2    50   ~ 0
 C_USBD_D-
-Text Label 5750 4050 2    50   ~ 0
+Text Label 5700 4150 2    50   ~ 0
 USBD_D-
-Text Label 6750 4050 0    50   ~ 0
+Text Label 6700 4150 0    50   ~ 0
 USBD_D+
 $Comp
 L power:GND #PWR0148
 U 1 1 5C919763
-P 6250 5900
-F 0 "#PWR0148" H 6250 5650 50  0001 C CNN
-F 1 "GND" V 6255 5772 50  0000 R CNN
-F 2 "" H 6250 5900 50  0001 C CNN
-F 3 "" H 6250 5900 50  0001 C CNN
-	1    6250 5900
+P 6200 6000
+F 0 "#PWR0148" H 6200 5750 50  0001 C CNN
+F 1 "GND" V 6205 5872 50  0000 R CNN
+F 2 "" H 6200 6000 50  0001 C CNN
+F 3 "" H 6200 6000 50  0001 C CNN
+	1    6200 6000
 	0    -1   1    0   
 $EndComp
-Text Label 6250 4900 0    50   ~ 0
+Text Label 6200 5000 0    50   ~ 0
 VBUS2
 $Comp
 L power:GND #PWR0149
 U 1 1 5C92064D
-P 6200 7100
-F 0 "#PWR0149" H 6200 6850 50  0001 C CNN
-F 1 "GND" V 6205 6972 50  0000 R CNN
-F 2 "" H 6200 7100 50  0001 C CNN
-F 3 "" H 6200 7100 50  0001 C CNN
-	1    6200 7100
+P 6150 7200
+F 0 "#PWR0149" H 6150 6950 50  0001 C CNN
+F 1 "GND" V 6155 7072 50  0000 R CNN
+F 2 "" H 6150 7200 50  0001 C CNN
+F 3 "" H 6150 7200 50  0001 C CNN
+	1    6150 7200
 	0    -1   1    0   
 $EndComp
-Text Label 6200 6100 0    50   ~ 0
-VBUS3
-Text Label 6700 6700 0    50   ~ 0
+Text Label 6650 6800 0    50   ~ 0
 C_USBH_D+
-Text Label 5700 6700 2    50   ~ 0
+Text Label 5650 6800 2    50   ~ 0
 C_USBH_D-
-Text Label 5700 6500 2    50   ~ 0
+Text Label 5650 6600 2    50   ~ 0
 USBH_D-
-Text Label 6700 6500 0    50   ~ 0
+Text Label 6650 6600 0    50   ~ 0
 USBH_D+
-Text Label 6750 5500 0    50   ~ 0
+Text Label 6700 5600 0    50   ~ 0
 C_USB_SER_D+
-Text Label 6750 5300 0    50   ~ 0
+Text Label 6700 5400 0    50   ~ 0
 USB_SER_D+
-Text Label 5750 5500 2    50   ~ 0
+Text Label 5700 5600 2    50   ~ 0
 C_USB_SER_D-
-Text Label 5750 5300 2    50   ~ 0
+Text Label 5700 5400 2    50   ~ 0
 USB_SER_D-
 $Comp
 L Power_Protection:USBLC6-2SC6 U9
 U 1 1 5C95AA0A
-P 6250 4150
-F 0 "U9" H 6000 4500 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 6600 4500 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5500 4550 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6450 4500 50  0001 C CNN
-F 4 "USBLC6-2SC6" H 0   0   50  0001 C CNN "manf#"
-	1    6250 4150
+P 6200 4250
+F 0 "U9" H 5950 4600 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 6550 4600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5450 4650 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6400 4600 50  0001 C CNN
+F 4 "USBLC6-2SC6" H -50 100 50  0001 C CNN "manf#"
+	1    6200 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Power_Protection:USBLC6-2SC6 U7
 U 1 1 5C961AAC
-P 6250 5400
-F 0 "U7" H 6000 5750 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 6600 5750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5500 5800 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6450 5750 50  0001 C CNN
-F 4 "USBLC6-2SC6" H 0   0   50  0001 C CNN "manf#"
-	1    6250 5400
+P 6200 5500
+F 0 "U7" H 5950 5850 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 6550 5850 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5450 5900 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6400 5850 50  0001 C CNN
+F 4 "USBLC6-2SC6" H -50 100 50  0001 C CNN "manf#"
+	1    6200 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Power_Protection:USBLC6-2SC6 U10
 U 1 1 5C961C9B
-P 6200 6600
-F 0 "U10" H 5950 6950 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 6600 6950 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5450 7000 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6400 6950 50  0001 C CNN
-F 4 "USBLC6-2SC6" H 0   0   50  0001 C CNN "manf#"
-	1    6200 6600
+P 6150 6700
+F 0 "U10" H 5900 7050 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 6550 7050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5400 7100 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6350 7050 50  0001 C CNN
+F 4 "USBLC6-2SC6" H -50 100 50  0001 C CNN "manf#"
+	1    6150 6700
 	1    0    0    -1  
 $EndComp
 Text Label 14050 2400 2    50   ~ 0
@@ -1591,41 +1587,41 @@ Text Label 3750 5950 0    50   ~ 0
 PC10
 Text Label 3750 6250 0    50   ~ 0
 PC13
-Text Label 1150 10100 2    50   ~ 0
-PD8
-Text Label 1650 10100 0    50   ~ 0
-PD9
-Text Label 1150 10200 2    50   ~ 0
-PD10
-Text Label 1650 10200 0    50   ~ 0
-PD11
-Text Label 1150 10300 2    50   ~ 0
-PD12
-Text Label 1650 10300 0    50   ~ 0
-PD13
-Text Label 1150 10400 2    50   ~ 0
-PD14
-Text Label 1650 10400 0    50   ~ 0
-PD15
-Text Label 1150 10500 2    50   ~ 0
-PC6
-Text Label 1650 10500 0    50   ~ 0
-PC7
-Text Label 1150 10600 2    50   ~ 0
-PC9
-Text Label 1650 10600 0    50   ~ 0
-PA8
-Text Label 1650 10000 0    50   ~ 0
-PB10
-Text Label 1150 9800 2    50   ~ 0
-PE11
-Text Label 1650 9800 0    50   ~ 0
-PE12
-Text Label 1150 9900 2    50   ~ 0
-PE13
-Text Label 1650 9900 0    50   ~ 0
-PE14
 Text Label 1150 10000 2    50   ~ 0
+PD8
+Text Label 1650 10000 0    50   ~ 0
+PD9
+Text Label 1150 10100 2    50   ~ 0
+PD10
+Text Label 1650 10100 0    50   ~ 0
+PD11
+Text Label 1150 10200 2    50   ~ 0
+PD12
+Text Label 1650 10200 0    50   ~ 0
+PD13
+Text Label 1150 10300 2    50   ~ 0
+PD14
+Text Label 1650 10300 0    50   ~ 0
+PD15
+Text Label 1150 10400 2    50   ~ 0
+PC6
+Text Label 1650 10400 0    50   ~ 0
+PC7
+Text Label 1150 10500 2    50   ~ 0
+PC9
+Text Label 1650 10500 0    50   ~ 0
+PA8
+Text Label 1650 9900 0    50   ~ 0
+PB10
+Text Label 1150 9700 2    50   ~ 0
+PE11
+Text Label 1650 9700 0    50   ~ 0
+PE12
+Text Label 1150 9800 2    50   ~ 0
+PE13
+Text Label 1650 9800 0    50   ~ 0
+PE14
+Text Label 1150 9900 2    50   ~ 0
 PE15
 Wire Wire Line
 	1150 9600 1150 9500
@@ -1738,31 +1734,17 @@ F 4 "CRGCQ0805J22R" H 550 -50 50  0001 C CNN "manf#"
 	1    8100 9950
 	0    1    1    0   
 $EndComp
-Text Label 11550 8400 2    50   ~ 0
-VBUS3
 Text Label 11550 8200 2    50   ~ 0
 VBUS2
 Text Label 11550 8000 2    50   ~ 0
 VBUS1
-$Comp
-L Diode:B120-E3 D6
-U 1 1 5C6C7C37
-P 11700 8400
-F 0 "D6" H 11500 8300 50  0000 C CNN
-F 1 "B120-E3" H 11750 8300 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 11700 8225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 11700 8400 50  0001 C CNN
-F 4 "B120-E3" H -450 -550 50  0001 C CNN "manf#"
-	1    11700 8400
-	-1   0    0    1   
-$EndComp
 $Comp
 L Diode:B120-E3 D5
 U 1 1 5C6C7CE7
 P 11700 8200
 F 0 "D5" H 11500 8100 50  0000 C CNN
 F 1 "B120-E3" H 11750 8100 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 11700 8025 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11700 8025 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 11700 8200 50  0001 C CNN
 F 4 "B120-E3" H -450 -550 50  0001 C CNN "manf#"
 	1    11700 8200
@@ -1774,7 +1756,7 @@ U 1 1 5C6C7D97
 P 11700 8000
 F 0 "D2" H 11500 7900 50  0000 C CNN
 F 1 "B120-E3" H 11750 7900 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 11700 7825 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11700 7825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 11700 8000 50  0001 C CNN
 F 4 "B120-E3" H -450 -550 50  0001 C CNN "manf#"
 	1    11700 8000
@@ -1782,13 +1764,6 @@ F 4 "B120-E3" H -450 -550 50  0001 C CNN "manf#"
 $EndComp
 Wire Wire Line
 	11850 8200 12050 8200
-Wire Wire Line
-	12050 8200 12050 8400
-Wire Wire Line
-	11850 8400 12050 8400
-Connection ~ 12050 8400
-Wire Wire Line
-	12050 8400 12050 8600
 Wire Wire Line
 	11850 8000 12050 8000
 Wire Wire Line
@@ -1871,117 +1846,59 @@ F 3 "" H 8900 1500 50  0001 C CNN
 $EndComp
 Text Label 8900 1100 0    50   ~ 0
 ~RESET
-$Comp
-L Connector_Generic:Conn_02x10_Odd_Even J18
-U 1 1 5C93C1AC
-P 1700 8100
-F 0 "J18" H 1750 7467 50  0000 C CNN
-F 1 "PROTO1" H 1750 7376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1700 8100 50  0001 C CNN
-F 3 "~" H 1700 8100 50  0001 C CNN
-	1    1700 8100
-	0    -1   1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x10_Odd_Even J13
-U 1 1 5C947E2B
-P 3450 8100
-F 0 "J13" V 3454 7512 50  0000 R CNN
-F 1 "PROTO1" V 3545 7512 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 3450 8100 50  0001 C CNN
-F 3 "~" H 3450 8100 50  0001 C CNN
-	1    3450 8100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	3850 7900 3750 7900
+	3250 7900 3150 7900
+Connection ~ 2950 7900
+Wire Wire Line
+	2950 7900 2850 7900
 Connection ~ 3050 7900
 Wire Wire Line
 	3050 7900 2950 7900
 Connection ~ 3150 7900
 Wire Wire Line
 	3150 7900 3050 7900
-Connection ~ 3250 7900
 Wire Wire Line
-	3250 7900 3150 7900
-Connection ~ 3350 7900
+	3250 8400 3150 8400
+Connection ~ 2950 8400
 Wire Wire Line
-	3350 7900 3250 7900
-Connection ~ 3450 7900
-Wire Wire Line
-	3450 7900 3350 7900
-Connection ~ 3550 7900
-Wire Wire Line
-	3550 7900 3450 7900
-Connection ~ 3650 7900
-Wire Wire Line
-	3650 7900 3550 7900
-Connection ~ 3750 7900
-Wire Wire Line
-	3750 7900 3650 7900
-Wire Wire Line
-	3850 8400 3750 8400
+	2950 8400 2850 8400
 Connection ~ 3050 8400
 Wire Wire Line
 	3050 8400 2950 8400
 Connection ~ 3150 8400
 Wire Wire Line
 	3150 8400 3050 8400
-Connection ~ 3250 8400
-Wire Wire Line
-	3250 8400 3150 8400
-Connection ~ 3350 8400
-Wire Wire Line
-	3350 8400 3250 8400
-Connection ~ 3450 8400
-Wire Wire Line
-	3450 8400 3350 8400
-Connection ~ 3550 8400
-Wire Wire Line
-	3550 8400 3450 8400
-Connection ~ 3650 8400
-Wire Wire Line
-	3650 8400 3550 8400
-Connection ~ 3750 8400
-Wire Wire Line
-	3750 8400 3650 8400
 $Comp
 L power:GND #PWR01
 U 1 1 5C95E269
-P 2200 7900
-F 0 "#PWR01" H 2200 7650 50  0001 C CNN
-F 1 "GND" V 2205 7772 50  0000 R CNN
-F 2 "" H 2200 7900 50  0001 C CNN
-F 3 "" H 2200 7900 50  0001 C CNN
-	1    2200 7900
+P 1550 7900
+F 0 "#PWR01" H 1550 7650 50  0001 C CNN
+F 1 "GND" V 1555 7772 50  0000 R CNN
+F 2 "" H 1550 7900 50  0001 C CNN
+F 3 "" H 1550 7900 50  0001 C CNN
+	1    1550 7900
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2900 7900 2950 7900
-Connection ~ 2950 7900
 $Comp
 L power:GND #PWR02
 U 1 1 5C96B116
-P 2900 8400
-F 0 "#PWR02" H 2900 8150 50  0001 C CNN
-F 1 "GND" V 2905 8272 50  0000 R CNN
-F 2 "" H 2900 8400 50  0001 C CNN
-F 3 "" H 2900 8400 50  0001 C CNN
-	1    2900 8400
+P 2700 8400
+F 0 "#PWR02" H 2700 8150 50  0001 C CNN
+F 1 "GND" V 2705 8272 50  0000 R CNN
+F 2 "" H 2700 8400 50  0001 C CNN
+F 3 "" H 2700 8400 50  0001 C CNN
+	1    2700 8400
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	2900 8400 2950 8400
-Connection ~ 2950 8400
 $Comp
 L power:+3.3V #PWR0142
 U 1 1 5C9956E6
-P 2900 7900
-F 0 "#PWR0142" H 2900 7750 50  0001 C CNN
-F 1 "+3.3V" V 2915 8028 50  0000 L CNN
-F 2 "" H 2900 7900 50  0001 C CNN
-F 3 "" H 2900 7900 50  0001 C CNN
-	1    2900 7900
+P 2700 7900
+F 0 "#PWR0142" H 2700 7750 50  0001 C CNN
+F 1 "+3.3V" V 2715 8028 50  0000 L CNN
+F 2 "" H 2700 7900 50  0001 C CNN
+F 3 "" H 2700 7900 50  0001 C CNN
+	1    2700 7900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2008,7 +1925,7 @@ F 3 "" H 9350 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9350 1900 0    50   ~ 0
-PA8
+PC2
 $Comp
 L Device:LED_Small_ALT D8
 U 1 1 5C70DADC
@@ -2316,67 +2233,37 @@ Wire Wire Line
 $Comp
 L power:VDC #PWR0166
 U 1 1 5C9E941C
-P 2200 8400
-F 0 "#PWR0166" H 2200 8300 50  0001 C CNN
-F 1 "VDC" H 2200 8700 50  0000 C CNN
-F 2 "" H 2200 8400 50  0001 C CNN
-F 3 "" H 2200 8400 50  0001 C CNN
-	1    2200 8400
+P 1550 8400
+F 0 "#PWR0166" H 1550 8300 50  0001 C CNN
+F 1 "VDC" H 1550 8700 50  0000 C CNN
+F 2 "" H 1550 8400 50  0001 C CNN
+F 3 "" H 1550 8400 50  0001 C CNN
+	1    1550 8400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1300 8400 1400 8400
+	1450 7900 1550 7900
 Wire Wire Line
-	2100 7900 2200 7900
+	1450 8400 1550 8400
+Connection ~ 1550 8400
 Wire Wire Line
-	2100 8400 2200 8400
-Connection ~ 2200 8400
+	1450 7900 1350 7900
+Connection ~ 1450 7900
+Connection ~ 1250 7900
 Wire Wire Line
-	2100 7900 2000 7900
-Connection ~ 2100 7900
-Connection ~ 1400 7900
+	1250 7900 1150 7900
+Connection ~ 1350 7900
 Wire Wire Line
-	1400 7900 1300 7900
-Connection ~ 1500 7900
+	1350 7900 1250 7900
+Connection ~ 1450 8400
 Wire Wire Line
-	1500 7900 1400 7900
-Connection ~ 1600 7900
+	1150 8400 1250 8400
+Connection ~ 1250 8400
 Wire Wire Line
-	1600 7900 1500 7900
-Connection ~ 1700 7900
+	1250 8400 1350 8400
+Connection ~ 1350 8400
 Wire Wire Line
-	1700 7900 1600 7900
-Connection ~ 1800 7900
-Wire Wire Line
-	1800 7900 1700 7900
-Connection ~ 1900 7900
-Wire Wire Line
-	1900 7900 1800 7900
-Connection ~ 2000 7900
-Wire Wire Line
-	2000 7900 1900 7900
-Wire Wire Line
-	1400 8400 1500 8400
-Connection ~ 1400 8400
-Connection ~ 2100 8400
-Connection ~ 1500 8400
-Wire Wire Line
-	1500 8400 1600 8400
-Connection ~ 1600 8400
-Wire Wire Line
-	1600 8400 1700 8400
-Connection ~ 1700 8400
-Wire Wire Line
-	1700 8400 1800 8400
-Connection ~ 1800 8400
-Wire Wire Line
-	1800 8400 1900 8400
-Connection ~ 1900 8400
-Wire Wire Line
-	1900 8400 2000 8400
-Connection ~ 2000 8400
-Wire Wire Line
-	2000 8400 2100 8400
+	1350 8400 1450 8400
 $Comp
 L dragonmanh7-rescue:SN6505-SN6505-dragonmanh7-rescue-dragonmanh7-rescue U11
 U 1 1 5CA512D2
@@ -2561,18 +2448,6 @@ F 2 "" H 11600 6800 50  0001 C CNN
 F 3 "" H 11600 6800 50  0001 C CNN
 	1    11600 6800
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Interface_CAN_LIN:TCAN332 U12
-U 1 1 5C7EE777
-P 10200 4300
-F 0 "U12" H 10200 4878 50  0000 C CNN
-F 1 "TCAN332" H 10200 4787 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-8" H 10200 3800 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tcan337.pdf" H 10200 4300 50  0001 C CNN
-F 4 "TCAN332DCNR" H -1300 150 50  0001 C CNN "manf#"
-	1    10200 4300
-	1    0    0    -1  
 $EndComp
 Text Label 10700 4200 0    50   ~ 0
 CAN_H
@@ -2817,91 +2692,10 @@ F 4 "CL21A106MQFNNNE" H -2750 2050 50  0001 C CNN "manf#"
 $EndComp
 Wire Wire Line
 	12050 8600 12150 8600
-$Comp
-L dk_USB-DVI-HDMI-Connectors:10118194-0001LF J2
-U 1 1 5CFEABA2
-P 8350 6600
-F 0 "J2" H 8136 6624 60  0000 R CNN
-F 1 "10118194-0001LF" H 8800 5950 60  0000 R CNN
-F 2 "footprints:USB_Micro_B_Female_10118194-0001LF" H 8550 6800 60  0001 L CNN
-F 3 "" H 8550 6900 60  0001 L CNN
-F 4 "609-4618-1-ND" H 8550 7000 60  0001 L CNN "Digi-Key_PN"
-F 5 "10118194-0001LF" H 8550 7100 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 8550 7200 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 8550 7300 60  0001 L CNN "Family"
-F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 8550 7400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/amphenol-icc-fci/10118194-0001LF/609-4618-1-ND/2785382" H 8550 7500 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 8550 7600 60  0001 L CNN "Description"
-F 11 "Amphenol ICC (FCI)" H 8550 7700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8550 7800 60  0001 L CNN "Status"
-F 13 "10118194-0001LF" H 50  0   50  0001 C CNN "manf#"
-	1    8350 6600
-	-1   0    0    -1  
-$EndComp
-Text Label 8050 6600 2    50   ~ 0
+Text Label 8400 6850 2    50   ~ 0
 C_USBH_D+
-Text Label 8050 6500 2    50   ~ 0
+Text Label 8400 6950 2    50   ~ 0
 C_USBH_D-
-NoConn ~ 8050 6700
-Wire Wire Line
-	8050 6800 8050 7200
-Wire Wire Line
-	8050 7200 8450 7200
-Connection ~ 8050 6800
-$Comp
-L dk_USB-DVI-HDMI-Connectors:10118194-0001LF J7
-U 1 1 5D08A1B6
-P 8350 5300
-F 0 "J7" H 8136 5324 60  0000 R CNN
-F 1 "10118194-0001LF" H 8800 4650 60  0000 R CNN
-F 2 "footprints:USB_Micro_B_Female_10118194-0001LF" H 8550 5500 60  0001 L CNN
-F 3 "" H 8550 5600 60  0001 L CNN
-F 4 "609-4618-1-ND" H 8550 5700 60  0001 L CNN "Digi-Key_PN"
-F 5 "10118194-0001LF" H 8550 5800 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 8550 5900 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 8550 6000 60  0001 L CNN "Family"
-F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 8550 6100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/amphenol-icc-fci/10118194-0001LF/609-4618-1-ND/2785382" H 8550 6200 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 8550 6300 60  0001 L CNN "Description"
-F 11 "Amphenol ICC (FCI)" H 8550 6400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8550 6500 60  0001 L CNN "Status"
-F 13 "10118194-0001LF" H 0   -50 50  0001 C CNN "manf#"
-	1    8350 5300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 5500 8050 5900
-Wire Wire Line
-	8050 5900 8450 5900
-Connection ~ 8050 5500
-NoConn ~ 8050 5400
-$Comp
-L dk_USB-DVI-HDMI-Connectors:10118194-0001LF J1
-U 1 1 5D0F0A50
-P 8350 4000
-F 0 "J1" H 8136 4024 60  0000 R CNN
-F 1 "10118194-0001LF" H 8800 3350 60  0000 R CNN
-F 2 "footprints:USB_Micro_B_Female_10118194-0001LF" H 8550 4200 60  0001 L CNN
-F 3 "" H 8550 4300 60  0001 L CNN
-F 4 "609-4618-1-ND" H 8550 4400 60  0001 L CNN "Digi-Key_PN"
-F 5 "10118194-0001LF" H 8550 4500 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 8550 4600 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 8550 4700 60  0001 L CNN "Family"
-F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 8550 4800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/amphenol-icc-fci/10118194-0001LF/609-4618-1-ND/2785382" H 8550 4900 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 8550 5000 60  0001 L CNN "Description"
-F 11 "Amphenol ICC (FCI)" H 8550 5100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8550 5200 60  0001 L CNN "Status"
-F 13 "10118194-0001LF" H 0   -50 50  0001 C CNN "manf#"
-	1    8350 4000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 4200 8050 4600
-Connection ~ 8050 4200
-NoConn ~ 8050 4100
-Wire Wire Line
-	8050 4600 8450 4600
 $Comp
 L Connector_Generic:Conn_02x12_Odd_Even J6
 U 1 1 5C85A792
@@ -2913,9 +2707,9 @@ F 3 "~" H 1350 10100 50  0001 C CNN
 	1    1350 10100
 	1    0    0    1   
 $EndComp
-Text Label 1650 9700 0    50   ~ 0
+Text Label 1150 10600 2    50   ~ 0
 U1_TX
-Text Label 1150 9700 2    50   ~ 0
+Text Label 1650 10600 0    50   ~ 0
 U1_RX
 Wire Wire Line
 	2300 10600 2100 10600
@@ -2969,7 +2763,7 @@ Wire Wire Line
 	2800 10500 2800 10600
 Connection ~ 1650 9600
 Connection ~ 1150 9600
-Connection ~ 2200 7900
+Connection ~ 1550 7900
 Wire Wire Line
 	3050 6750 3250 6750
 Connection ~ 3050 6750
@@ -3577,5 +3371,189 @@ F 2 "" H 10200 3900 50  0001 C CNN
 F 3 "" H 10200 3900 50  0001 C CNN
 	1    10200 3900
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:USB_B J1
+U 1 1 5D4B3D52
+P 8700 3800
+F 0 "J1" H 8900 4150 50  0000 R CNN
+F 1 "USB_B" H 8750 4150 50  0000 R CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 8850 3750 50  0001 C CNN
+F 3 " ~" H 8850 3750 50  0001 C CNN
+	1    8700 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4200 8800 4200
+Connection ~ 8700 4200
+$Comp
+L Connector:USB_B J7
+U 1 1 5D5046A9
+P 8700 4700
+F 0 "J7" H 8900 5050 50  0000 R CNN
+F 1 "USB_B" H 8750 5050 50  0000 R CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 8850 4650 50  0001 C CNN
+F 3 " ~" H 8850 4650 50  0001 C CNN
+	1    8700 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 5100 8800 5100
+Connection ~ 8700 5100
+$Comp
+L Connector:USB_A J2
+U 1 1 5D52EE8F
+P 8700 6850
+F 0 "J2" H 8900 7200 50  0000 R CNN
+F 1 "USB_A" H 8750 7200 50  0000 R CNN
+F 2 "footprints:USB_A_Female_Vertical_RA_73725-0110BLF" H 8850 6800 50  0001 C CNN
+F 3 " ~" H 8850 6800 50  0001 C CNN
+	1    8700 6850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 7250 8800 7250
+Connection ~ 8700 7250
+Wire Wire Line
+	12050 8200 12050 8600
+$Comp
+L power:VDC #PWR0176
+U 1 1 5D677D18
+P 7200 5950
+F 0 "#PWR0176" H 7200 5850 50  0001 C CNN
+F 1 "VDC" H 7200 6225 50  0000 C CNN
+F 2 "" H 7200 5950 50  0001 C CNN
+F 3 "" H 7200 5950 50  0001 C CNN
+	1    7200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J13
+U 1 1 5D1B8D1F
+P 3050 8100
+F 0 "J13" V 3054 8380 50  0000 L CNN
+F 1 "Conn_02x05_Odd_Even" V 3145 8380 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 3050 8100 50  0001 C CNN
+F 3 "~" H 3050 8100 50  0001 C CNN
+	1    3050 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J18
+U 1 1 5D1BAEA1
+P 1350 8100
+F 0 "J18" V 1354 8380 50  0000 L CNN
+F 1 "Conn_02x05_Odd_Even" V 1445 8380 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1350 8100 50  0001 C CNN
+F 3 "~" H 1350 8100 50  0001 C CNN
+	1    1350 8100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 8400 2850 8400
+Connection ~ 2850 8400
+Wire Wire Line
+	2700 7900 2850 7900
+Connection ~ 2850 7900
+$Comp
+L mic20xx:MIC2005A U14
+U 1 1 5D435B8B
+P 7650 6150
+F 0 "U14" H 7650 6515 50  0000 C CNN
+F 1 "MIC2005A" H 7650 6424 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7650 6150 50  0001 C CNN
+F 3 "" H 7650 6150 50  0001 C CNN
+	1    7650 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5950 7200 6050
+Text Label 6150 6200 0    50   ~ 0
+VBUS3
+Text Label 8400 6650 2    50   ~ 0
+VBUS3
+Text Label 8100 6050 0    50   ~ 0
+VBUS3
+$Comp
+L power:GND #PWR012
+U 1 1 5D4563D0
+P 7200 6150
+F 0 "#PWR012" H 7200 5900 50  0001 C CNN
+F 1 "GND" V 7205 6022 50  0000 R CNN
+F 2 "" H 7200 6150 50  0001 C CNN
+F 3 "" H 7200 6150 50  0001 C CNN
+	1    7200 6150
+	0    1    1    0   
+$EndComp
+Text Label 8100 6250 0    50   ~ 0
+PE11
+Text Label 7200 6350 2    50   ~ 0
+PE12
+Wire Wire Line
+	7200 6350 7200 6250
+$Comp
+L Device:C_Small C42
+U 1 1 5D477F67
+P 8400 6150
+F 0 "C42" H 8492 6196 50  0000 L CNN
+F 1 "2.2u" H 8492 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8400 6150 50  0001 C CNN
+F 3 "~" H 8400 6150 50  0001 C CNN
+F 4 "CL21B225KPFNNNE" H -6850 -3100 50  0001 C CNN "manf#"
+	1    8400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5D488C53
+P 8400 6350
+F 0 "#PWR013" H 8400 6100 50  0001 C CNN
+F 1 "GND" V 8405 6222 50  0000 R CNN
+F 2 "" H 8400 6350 50  0001 C CNN
+F 3 "" H 8400 6350 50  0001 C CNN
+	1    8400 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 6250 8400 6350
+Wire Wire Line
+	8400 6050 8100 6050
+$Comp
+L Device:C_Small C41
+U 1 1 5D4A9E15
+P 7000 6050
+F 0 "C41" V 6771 6050 50  0000 C CNN
+F 1 "2.2u" V 6862 6050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7000 6050 50  0001 C CNN
+F 3 "~" H 7000 6050 50  0001 C CNN
+F 4 "CL21B225KPFNNNE" H -8250 -3200 50  0001 C CNN "manf#"
+	1    7000 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 6050 7200 6050
+Connection ~ 7200 6050
+$Comp
+L power:GND #PWR08
+U 1 1 5D4BACF8
+P 6900 6050
+F 0 "#PWR08" H 6900 5800 50  0001 C CNN
+F 1 "GND" V 6905 5922 50  0000 R CNN
+F 2 "" H 6900 6050 50  0001 C CNN
+F 3 "" H 6900 6050 50  0001 C CNN
+	1    6900 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Interface_CAN_LIN:TCAN332 U12
+U 1 1 5C7EE777
+P 10200 4300
+F 0 "U12" H 10200 4878 50  0000 C CNN
+F 1 "TCAN332" H 10200 4787 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-8" H 10200 3800 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tcan337.pdf" H 10200 4300 50  0001 C CNN
+F 4 "TCAN332DCNR" H -1300 150 50  0001 C CNN "manf#"
+	1    10200 4300
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
