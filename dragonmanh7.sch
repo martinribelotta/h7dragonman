@@ -751,18 +751,6 @@ Wire Wire Line
 	3950 6350 3950 6500
 Connection ~ 3950 6500
 NoConn ~ 6100 9650
-$Comp
-L dragonmanh7-rescue:Micro_SD_Card-Connector-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue J4
-U 1 1 5C625641
-P 7050 1250
-F 0 "J4" H 6350 1850 50  0000 C CNN
-F 1 "Micro_SD_Card" H 7050 1850 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 8200 1550 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7050 1250 50  0001 C CNN
-F 4 "DM3D-SF" H 0   0   50  0001 C CNN "manf#"
-	1    7050 1250
-	1    0    0    -1  
-$EndComp
 Text Label 3750 5750 0    50   ~ 0
 SDMMC_D0
 Text Label 3750 6150 0    50   ~ 0
@@ -2069,7 +2057,7 @@ USB
 Text Notes 11250 3500 0    50   ~ 0
 COMM-ISO
 $Comp
-L dragonmanh7-rescue:ISO1050DUB-Interface_CAN_LIN-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue U3
+L Interface_CAN_LIN:ISO1050DUB U3
 U 1 1 5C76F366
 P 12450 4050
 F 0 "U3" H 12450 4417 50  0000 C CNN
@@ -2249,7 +2237,7 @@ Connection ~ 1350 8400
 Wire Wire Line
 	1350 8400 1450 8400
 $Comp
-L dragonmanh7-rescue:SN6505-SN6505-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue U11
+L SN6505:SN6505 U11
 U 1 1 5CA512D2
 P 12050 6800
 F 0 "U11" H 12050 6435 50  0000 C CNN
@@ -3574,5 +3562,16 @@ F 2 "" H 3300 9500 50  0001 C CNN
 F 3 "" H 3300 9500 50  0001 C CNN
 	1    3300 9500
 	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Micro_SD_Card J4
+U 1 1 5D206CAA
+P 7050 1250
+F 0 "J4" H 6350 1850 50  0000 C CNN
+F 1 "Micro_SD_Card" H 7000 1850 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 8200 1550 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7050 1250 50  0001 C CNN
+	1    7050 1250
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
