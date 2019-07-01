@@ -1674,21 +1674,19 @@ Text Label 3300 9800 2    50   ~ 0
 PE5
 Text Label 3800 9800 0    50   ~ 0
 PE6
-Text Label 3300 9700 2    50   ~ 0
+Text Label 2300 9500 2    50   ~ 0
 PC13
 $Comp
 L power:+3.3V #PWR0153
 U 1 1 5C7A85C0
-P 3300 9500
-F 0 "#PWR0153" H 3300 9350 50  0001 C CNN
-F 1 "+3.3V" V 3315 9628 50  0000 L CNN
-F 2 "" H 3300 9500 50  0001 C CNN
-F 3 "" H 3300 9500 50  0001 C CNN
-	1    3300 9500
+P 3300 9600
+F 0 "#PWR0153" H 3300 9450 50  0001 C CNN
+F 1 "+3.3V" V 3315 9728 50  0000 L CNN
+F 2 "" H 3300 9600 50  0001 C CNN
+F 3 "" H 3300 9600 50  0001 C CNN
+	1    3300 9600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3300 9600 3300 9500
 $Comp
 L power:GND #PWR0154
 U 1 1 5C7B0227
@@ -1789,9 +1787,6 @@ Text Label 2300 10400 2    50   ~ 0
 PB1
 Wire Wire Line
 	2100 10700 2800 10700
-Wire Wire Line
-	2100 9500 2100 10600
-Connection ~ 2100 10600
 Wire Wire Line
 	2100 10600 2100 10700
 $Comp
@@ -2683,8 +2678,6 @@ Text Label 1650 10600 0    50   ~ 0
 U1_RX
 Wire Wire Line
 	2300 10600 2100 10600
-Wire Wire Line
-	2300 9500 2100 9500
 $Comp
 L Connector_Generic:Conn_02x12_Odd_Even J10
 U 1 1 5C85B454
@@ -2800,7 +2793,6 @@ F 3 "" H 2100 1350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 1350 2400 1350
-Connection ~ 3300 9500
 $Comp
 L Connector_Generic:Conn_02x12_Odd_Even J9
 U 1 1 5C85B7B2
@@ -3569,4 +3561,18 @@ Wire Wire Line
 Wire Wire Line
 	6900 6150 6900 6050
 Connection ~ 6900 6050
+Wire Wire Line
+	3300 9700 3300 9600
+Connection ~ 3300 9600
+$Comp
+L power:GND #PWR?
+U 1 1 5D193CC5
+P 3300 9500
+F 0 "#PWR?" H 3300 9250 50  0001 C CNN
+F 1 "GND" V 3305 9372 50  0000 R CNN
+F 2 "" H 3300 9500 50  0001 C CNN
+F 3 "" H 3300 9500 50  0001 C CNN
+	1    3300 9500
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
