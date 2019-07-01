@@ -1,10 +1,8 @@
 (sym_lib_table
   (lib (name SN6505)(type Legacy)(uri ${KIPRJMOD}/SN6505.lib)(options "")(descr ""))
-  (lib (name dragonbmanh7-rescue)(type Legacy)(uri ${KIPRJMOD}/dragonbmanh7-rescue.lib)(options "")(descr ""))
   (lib (name 2019-03-05_02-01-41)(type Legacy)(uri ${KIPRJMOD}/2019-03-05_02-01-41.lib)(options "")(descr ""))
   (lib (name 2019-03-05_16-17-32)(type Legacy)(uri ${KIPRJMOD}/2019-03-05_16-17-32.lib)(options "")(descr ""))
   (lib (name reg_ap6320x)(type Legacy)(uri ${KIPRJMOD}/reg_ap6320x.lib)(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
-  (lib (name dragonmanh7-rescue)(type Legacy)(uri ${KIPRJMOD}/dragonmanh7-rescue.lib)(options "")(descr ""))
   (lib (name mic20xx)(type Legacy)(uri ${KIPRJMOD}/mic20xx.lib)(options "")(descr ""))
 )

@@ -752,7 +752,7 @@ Wire Wire Line
 Connection ~ 3950 6500
 NoConn ~ 6100 9650
 $Comp
-L dragonmanh7-rescue:Micro_SD_Card-Connector-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue J4
+L dragonmanh7-rescue:Micro_SD_Card-Connector-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue J4
 U 1 1 5C625641
 P 7050 1250
 F 0 "J4" H 6350 1850 50  0000 C CNN
@@ -2069,7 +2069,7 @@ USB
 Text Notes 11250 3500 0    50   ~ 0
 COMM-ISO
 $Comp
-L dragonmanh7-rescue:ISO1050DUB-Interface_CAN_LIN-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue U3
+L dragonmanh7-rescue:ISO1050DUB-Interface_CAN_LIN-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue U3
 U 1 1 5C76F366
 P 12450 4050
 F 0 "U3" H 12450 4417 50  0000 C CNN
@@ -2249,7 +2249,7 @@ Connection ~ 1350 8400
 Wire Wire Line
 	1350 8400 1450 8400
 $Comp
-L dragonmanh7-rescue:SN6505-SN6505-dragonmanh7-rescue-dragonmanh7-rescue U11
+L dragonmanh7-rescue:SN6505-SN6505-dragonmanh7-rescue-dragonmanh7-rescue-dragonmanh7-rescue U11
 U 1 1 5CA512D2
 P 12050 6800
 F 0 "U11" H 12050 6435 50  0000 C CNN
