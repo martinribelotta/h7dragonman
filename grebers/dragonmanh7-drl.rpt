@@ -1,0 +1,37 @@
+Drill report for /home/martin/Proyectos/git/mribelotta/h7dragonman-noniso/dragonmanh7.kicad_pcb
+Created on dom 25 ago 2019 19:57:59 -03
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'dragonmanh7.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (155 holes)
+    T2  0,50mm  0,020"  (32 holes)
+    T3  0,89mm  0,035"  (4 holes)
+    T4  0,90mm  0,035"  (8 holes)
+    T5  0,92mm  0,036"  (12 holes)
+    T6  0,99mm  0,039"  (4 holes)
+    T7  1,00mm  0,039"  (106 holes)
+    T8  1,20mm  0,047"  (8 holes)
+    T9  1,30mm  0,051"  (4 holes)
+    T10  1,35mm  0,053"  (4 holes)
+    T11  1,60mm  0,063"  (2 holes)
+    T12  2,33mm  0,092"  (4 holes)
+    T13  3,20mm  0,126"  (4 holes)
+
+    Total plated holes count 347
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T14  3,25mm  0,128"  (2 holes)
+
+    Total unplated holes count 2
