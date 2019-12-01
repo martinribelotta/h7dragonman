@@ -3467,4 +3467,37 @@ Wire Wire Line
 Connection ~ 13950 4000
 Wire Wire Line
 	13950 4000 14000 4000
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5E22DD76
+P 10050 3850
+F 0 "FID1" H 10135 3896 50  0000 L CNN
+F 1 "Fiducial" H 10135 3805 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10050 3850 50  0001 C CNN
+F 3 "~" H 10050 3850 50  0001 C CNN
+	1    10050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5E22E743
+P 10550 3850
+F 0 "FID2" H 10635 3896 50  0000 L CNN
+F 1 "Fiducial" H 10635 3805 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10550 3850 50  0001 C CNN
+F 3 "~" H 10550 3850 50  0001 C CNN
+	1    10550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5E22EA10
+P 11050 3850
+F 0 "FID3" H 11135 3896 50  0000 L CNN
+F 1 "Fiducial" H 11135 3805 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 11050 3850 50  0001 C CNN
+F 3 "~" H 11050 3850 50  0001 C CNN
+	1    11050 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
