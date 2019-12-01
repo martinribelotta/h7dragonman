@@ -2431,7 +2431,7 @@ U 1 1 5CFBA196
 P 10400 5400
 F 0 "LOGO1" H 10400 5675 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 10400 5175 50  0001 C CNN
-F 2 "footprints:ciaa_7-logo" H 10400 5400 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_8mm_SilkScreen" H 10400 5400 50  0001 C CNN
 F 3 "~" H 10400 5400 50  0001 C CNN
 	1    10400 5400
 	1    0    0    -1  
