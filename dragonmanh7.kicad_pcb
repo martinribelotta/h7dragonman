@@ -32,7 +32,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -2117,7 +2117,7 @@
   )
 
   (module footprints:ciaa_7-logo (layer F.Cu) (tedit 0) (tstamp 5CFFCACC)
-    (at 105.4354 59.309)
+    (at 104.267 60.1472)
     (path /5CFBA196)
     (fp_text reference LOGO1 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -5547,7 +5547,7 @@
   (gr_text "SWD\nM7" (at 153.924 55.88) (layer F.SilkS) (tstamp 5CF8A460)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Copyright ©\n2019 by\nMartin Ribelotta\nand Eric Pernia" (at 105.5116 67.5894) (layer F.SilkS)
+  (gr_text "Copyright ©\n2019 by\nMartin Ribelotta\nand Eric Pernia" (at 104.267 68.1482) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (dimension 7.60984 (width 0.15) (layer Dwgs.User)
