@@ -406,6 +406,24 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_TestPoint_Probe
+#
+DEF Connector_TestPoint_Probe TP 0 30 N N 1 F N
+F0 "TP" 65 230 50 H V C CNN
+F1 "Connector_TestPoint_Probe" 65 160 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+P 4 0 1 0 50 30 0 0 30 50 50 30 F
+P 5 0 1 0 55 25 25 55 95 125 125 95 55 25 f
+X 1 1 0 0 0 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_USB_B
 #
 DEF Connector_USB_B J 0 40 Y Y 1 F N
@@ -1019,11 +1037,11 @@ X ~ SH 125 -325 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dragonmanh7-rescue_STM32F042F4Px-MCU_ST_STM32F0
+# dragonmanh7-rescue_STM32F042F4Px-MCU_ST_STM32F0-dragonmanh7-rescue
 #
-DEF dragonmanh7-rescue_STM32F042F4Px-MCU_ST_STM32F0 U 0 20 Y Y 1 F N
+DEF dragonmanh7-rescue_STM32F042F4Px-MCU_ST_STM32F0-dragonmanh7-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 650 50 H V L CNN
-F1 "dragonmanh7-rescue_STM32F042F4Px-MCU_ST_STM32F0" 0 650 50 H V L CNN
+F1 "dragonmanh7-rescue_STM32F042F4Px-MCU_ST_STM32F0-dragonmanh7-rescue" 0 650 50 H V L CNN
 F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" -500 -700 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

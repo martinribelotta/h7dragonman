@@ -1931,7 +1931,7 @@ Connection ~ 1250 8400
 Wire Wire Line
 	1250 8400 1350 8400
 $Comp
-L dragonmanh7-rescue:STM32F042F4Px-MCU_ST_STM32F0 U8
+L dragonmanh7-rescue:STM32F042F4Px-MCU_ST_STM32F0-dragonmanh7-rescue U8
 U 1 1 5C7F1703
 P 14650 1800
 F 0 "U8" H 15000 1050 50  0000 C CNN
@@ -3500,4 +3500,94 @@ F 3 "~" H 11050 3850 50  0001 C CNN
 	1    11050 3850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint_Probe TP6
+U 1 1 5E1CFBDB
+P 15200 8200
+F 0 "TP6" H 15352 8301 50  0000 L CNN
+F 1 "3V3_TP" H 15352 8210 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 15400 8200 50  0001 C CNN
+F 3 "~" H 15400 8200 50  0001 C CNN
+	1    15200 8200
+	1    0    0    -1  
+$EndComp
+Connection ~ 15100 8200
+Wire Wire Line
+	15100 8200 15200 8200
+$Comp
+L Connector:TestPoint_Probe TP5
+U 1 1 5E1E58CC
+P 14000 8050
+F 0 "TP5" H 14153 8151 50  0000 L CNN
+F 1 "VIN_TP" H 14153 8060 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 14200 8050 50  0001 C CNN
+F 3 "~" H 14200 8050 50  0001 C CNN
+	1    14000 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 8050 13850 8050
+$Comp
+L Connector:TestPoint_Probe TP3
+U 1 1 5E1FA9DD
+P 7950 4850
+F 0 "TP3" H 8005 5140 50  0000 C CNN
+F 1 "VBUS2_TP" H 8005 5049 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 8150 4850 50  0001 C CNN
+F 3 "~" H 8150 4850 50  0001 C CNN
+	1    7950 4850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4850 8300 4850
+$Comp
+L Connector:TestPoint_Probe TP2
+U 1 1 5E213482
+P 7950 3600
+F 0 "TP2" H 8005 3890 50  0000 C CNN
+F 1 "VBUS1_TP" H 8005 3799 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 8150 3600 50  0001 C CNN
+F 3 "~" H 8150 3600 50  0001 C CNN
+	1    7950 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3600 7950 3600
+$Comp
+L Connector:TestPoint_Probe TP4
+U 1 1 5E228BB0
+P 8050 6400
+F 0 "TP4" H 8203 6408 50  0000 L CNN
+F 1 "VBUS3_TP" H 8203 6499 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 8250 6400 50  0001 C CNN
+F 3 "~" H 8250 6400 50  0001 C CNN
+	1    8050 6400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8050 6400 8400 6400
+$Comp
+L Connector:TestPoint_Probe TP1
+U 1 1 5E2616EE
+P 1000 5400
+F 0 "TP1" H 1055 5690 50  0000 C CNN
+F 1 "VBAT_TP" H 1055 5599 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 1200 5400 50  0001 C CNN
+F 3 "~" H 1200 5400 50  0001 C CNN
+	1    1000 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0127
+U 1 1 5E26B945
+P 1150 5400
+F 0 "#PWR0127" H 1150 5250 50  0001 C CNN
+F 1 "+BATT" V 1165 5527 50  0000 L CNN
+F 2 "" H 1150 5400 50  0001 C CNN
+F 3 "" H 1150 5400 50  0001 C CNN
+	1    1150 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 5400 1000 5400
 $EndSCHEMATC
