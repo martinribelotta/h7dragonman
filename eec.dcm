@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LAN8742A-CZ-TR
+D LAN8742A-CZ-TR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS_LAN8742_00001989A.pdf
+$ENDCMP
+#
+#End Doc Library
