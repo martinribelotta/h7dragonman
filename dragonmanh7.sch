@@ -1196,68 +1196,38 @@ Text Label 3750 5950 0    50   ~ 0
 PC10
 Text Label 3750 6250 0    50   ~ 0
 PC13
-Text Label 1150 10000 2    50   ~ 0
+Text Label 1150 9900 2    50   ~ 0
 PD8
-Text Label 1650 10000 0    50   ~ 0
-PD9
-Text Label 1150 10100 2    50   ~ 0
-PD10
-Text Label 1650 10100 0    50   ~ 0
-PD11
-Text Label 1150 10200 2    50   ~ 0
-PD12
-Text Label 1650 10200 0    50   ~ 0
-PD13
-Text Label 1150 10300 2    50   ~ 0
-PD14
-Text Label 1650 10300 0    50   ~ 0
-PD15
-Text Label 1150 10400 2    50   ~ 0
-PC6
-Text Label 1650 10400 0    50   ~ 0
-PC7
-Text Label 1150 10500 2    50   ~ 0
-PC9
-Text Label 1650 10500 0    50   ~ 0
-PA8
 Text Label 1650 9900 0    50   ~ 0
+PD9
+Text Label 1150 10000 2    50   ~ 0
+PD10
+Text Label 1650 10000 0    50   ~ 0
+PD11
+Text Label 1150 10100 2    50   ~ 0
+PD12
+Text Label 1650 10100 0    50   ~ 0
+PD13
+Text Label 1150 10200 2    50   ~ 0
+PD14
+Text Label 1650 10200 0    50   ~ 0
+PD15
+Text Label 1150 10300 2    50   ~ 0
+PC6
+Text Label 1650 10300 0    50   ~ 0
+PC7
+Text Label 1150 10400 2    50   ~ 0
+PC9
+Text Label 1650 10400 0    50   ~ 0
+PA8
+Text Label 1650 9800 0    50   ~ 0
 PB10
 Text Label 1150 9700 2    50   ~ 0
-PE11
-Text Label 1650 9700 0    50   ~ 0
-PE12
-Text Label 1150 9800 2    50   ~ 0
 PE13
-Text Label 1650 9800 0    50   ~ 0
+Text Label 1650 9700 0    50   ~ 0
 PE14
-Text Label 1150 9900 2    50   ~ 0
+Text Label 1150 9800 2    50   ~ 0
 PE15
-Wire Wire Line
-	1150 9600 1150 9500
-Wire Wire Line
-	1650 9500 1650 9600
-$Comp
-L power:GND #PWR0151
-U 1 1 5C757D5C
-P 1150 9600
-F 0 "#PWR0151" H 1150 9350 50  0001 C CNN
-F 1 "GND" V 1150 9450 50  0000 R CNN
-F 2 "" H 1150 9600 50  0001 C CNN
-F 3 "" H 1150 9600 50  0001 C CNN
-	1    1150 9600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0152
-U 1 1 5C757E97
-P 1650 9600
-F 0 "#PWR0152" H 1650 9450 50  0001 C CNN
-F 1 "+3.3V" V 1665 9728 50  0000 L CNN
-F 2 "" H 1650 9600 50  0001 C CNN
-F 3 "" H 1650 9600 50  0001 C CNN
-	1    1650 9600
-	0    1    1    0   
-$EndComp
 Text Label 3800 10600 0    50   ~ 0
 PC10
 Text Label 3300 10600 2    50   ~ 0
@@ -1748,7 +1718,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 9050 12850 8700
 Wire Wire Line
-	12850 8700 14050 8700
+	12850 8700 13150 8700
 Wire Wire Line
 	12850 9250 12850 9150
 Connection ~ 12850 9150
@@ -1778,19 +1748,19 @@ C_USBH_D+
 Text Label 11550 5800 2    50   ~ 0
 C_USBH_D-
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J6
+L Connector_Generic:Conn_02x08_Odd_Even J6
 U 1 1 5C85A792
-P 1350 10100
-F 0 "J6" H 1400 9275 50  0000 C CNN
-F 1 "Conn_02x12_Odd_Even" H 1400 9366 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical" H 1350 10100 50  0001 C CNN
-F 3 "~" H 1350 10100 50  0001 C CNN
-	1    1350 10100
-	1    0    0    1   
+P 1450 10100
+F 0 "J6" H 1500 9275 50  0000 C CNN
+F 1 "Conn_02x12_Odd_Even" H 1500 9366 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 1450 10100 50  0001 C CNN
+F 3 "~" H 1450 10100 50  0001 C CNN
+	1    1450 10100
+	-1   0    0    1   
 $EndComp
-Text Label 1150 10600 2    50   ~ 0
+Text Label 4350 8950 0    50   ~ 0
 U1_TX
-Text Label 1650 10600 0    50   ~ 0
+Text Label 4350 8850 0    50   ~ 0
 U1_RX
 Wire Wire Line
 	2300 10600 2100 10600
@@ -1840,8 +1810,6 @@ Wire Wire Line
 Connection ~ 2800 10500
 Wire Wire Line
 	2800 10500 2800 10600
-Connection ~ 1650 9600
-Connection ~ 1150 9600
 Connection ~ 1450 7900
 Wire Wire Line
 	3050 6750 3250 6750
@@ -3709,7 +3677,7 @@ F 3 "" H 11450 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J7
+L dragonmanh7-rescue:USB_C_Receptacle_USB2.0-Connector J7
 U 1 1 611E4C9F
 P 11450 3950
 F 0 "J7" H 11020 3889 50  0000 R CNN
@@ -3844,7 +3812,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 1450 10850 1550
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L dragonmanh7-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 60FA9730
 P 11450 1550
 F 0 "J1" H 11020 1489 50  0000 R CNN
@@ -3961,7 +3929,7 @@ $EndComp
 Wire Wire Line
 	14400 8300 14650 8300
 Wire Wire Line
-	14650 8300 14650 8500
+	14650 8300 14650 8400
 Wire Wire Line
 	14650 8700 14400 8700
 Connection ~ 14650 8300
@@ -4273,4 +4241,65 @@ Wire Wire Line
 Connection ~ 12200 8750
 Wire Wire Line
 	12200 8750 12200 8850
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J16
+U 1 1 5FB285DF
+P 4150 8950
+F 0 "J16" H 4200 8625 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 4200 8716 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 4150 8950 50  0001 C CNN
+F 3 "~" H 4150 8950 50  0001 C CNN
+	1    4150 8950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5FB2EE8D
+P 3850 8950
+F 0 "#PWR0118" H 3850 8700 50  0001 C CNN
+F 1 "GND" V 3855 8822 50  0000 R CNN
+F 2 "" H 3850 8950 50  0001 C CNN
+F 3 "" H 3850 8950 50  0001 C CNN
+	1    3850 8950
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0128
+U 1 1 5FB2F9D8
+P 3850 8850
+F 0 "#PWR0128" H 3850 8700 50  0001 C CNN
+F 1 "+3.3V" V 3865 8978 50  0000 L CNN
+F 2 "" H 3850 8850 50  0001 C CNN
+F 3 "" H 3850 8850 50  0001 C CNN
+	1    3850 8850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP11
+U 1 1 5FA637E6
+P 14650 8400
+F 0 "TP11" H 14802 8501 50  0000 L CNN
+F 1 "5V_TP" H 14802 8410 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 14850 8400 50  0001 C CNN
+F 3 "~" H 14850 8400 50  0001 C CNN
+	1    14650 8400
+	1    0    0    -1  
+$EndComp
+Connection ~ 14650 8400
+Wire Wire Line
+	14650 8400 14650 8500
+$Comp
+L Connector:TestPoint_Probe TP10
+U 1 1 5FA6AA05
+P 13150 8700
+F 0 "TP10" V 13440 8755 50  0000 C CNN
+F 1 "VDC_TP" V 13349 8755 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 13350 8700 50  0001 C CNN
+F 3 "~" H 13350 8700 50  0001 C CNN
+	1    13150 8700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13150 8700
+Wire Wire Line
+	13150 8700 14050 8700
 $EndSCHEMATC
