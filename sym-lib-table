@@ -7,4 +7,5 @@
   (lib (name mic20xx)(type Legacy)(uri ${KIPRJMOD}/mic20xx.lib)(options "")(descr ""))
   (lib (name dragonmanh7-rescue)(type Legacy)(uri ${KIPRJMOD}/dragonmanh7-rescue.lib)(options "")(descr ""))
   (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/eec.lib)(options "")(descr ""))
+  (lib (name 105162-0001)(type Legacy)(uri ${KIPRJMOD}/105162-0001.lib)(options "")(descr ""))
 )
